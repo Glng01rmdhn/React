@@ -11,5 +11,6 @@ function apps() {
       <h1>{props.judul}</h1>
       <p>{props.isi}</p>
       <p style={{color: props.warna}}>{props.warna}</p>
+    </div>
   );
 }
