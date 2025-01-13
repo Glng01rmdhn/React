@@ -1,5 +1,5 @@
 
-function apps() {
+function Apps() {
   const props = {
     judul: "Judul Kartu Saya",
     isi: "Ini adalah isi kartu",
@@ -14,3 +14,5 @@ function apps() {
     </div>
   );
 }
+
+export default Apps;
