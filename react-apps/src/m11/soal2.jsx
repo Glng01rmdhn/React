@@ -26,11 +26,11 @@ function TaskStatusApp() {
           padding: '10px 20px',
           fontSize: '16px',
           cursor: 'pointer',
-          backgroundColor: '#008CBA',
-          color: 'white',
+          backgroundColor: '#EFB036',
+          color: '#872341',
           border: 'none',
           borderRadius: '5px',
-          marginTop: '20px'
+          marginTop: '20px',
         }}
       >
         Toggle Task
