@@ -9,10 +9,10 @@ function useTheme(initialTheme = "light") {
   }, [theme]);
 
   // Fungsi untuk mengubah tema
-  const toggleTheme = () => {
+  const toggleTheme = () => {  
     setTheme((prevTheme) => (prevTheme === "light" ? "dark" : "light"));
   };
-
+// toggleTheme(); untuk mengganti tema 
   return [theme, toggleTheme];
 }
 

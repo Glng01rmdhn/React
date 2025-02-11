@@ -12,7 +12,7 @@ const tugasBaru = () => {
                     <li key = {index}>{nama}</li>
                 ))}
             </ul>
-            <button onClick={() => setNama ([...nama, "aruna"])}
+            <button onClick={() => setNama ([...nama, "JAMH"])}
                 className="px-4 py-2 bg-blue-500 text-white rounded"
                 >
                 Tambah Nama

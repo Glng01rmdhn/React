@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 function SearchComponent() {
-  const [query, setQuery] = useState('');
-  const [results, setResults] = useState([]);
+  const [query, setQuery] = useState(''); // query menyimpan teks pencarian yang diketik pengguna.
+
+  const [results, setResults] = useState([]); //results menyimpan hasil pencarian dari API.
 
   useEffect(() => {
     if (query) {

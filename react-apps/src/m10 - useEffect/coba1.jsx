@@ -5,7 +5,7 @@ function Counter() {
 
   useEffect(() => {
     console.log('Component mounted or count changed!');
-  }, [count]); // Dependency array memantau perubahan count
+  }, [count]); // [count] -> Dependency array memantau perubahan count
 
   return (
     <div>
