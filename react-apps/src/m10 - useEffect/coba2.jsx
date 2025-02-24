@@ -5,7 +5,7 @@ function SearchComponent() {
 
   const [results, setResults] = useState([]); //results menyimpan hasil pencarian dari API.
 
-  useEffect(() => {
+  useEffect(() => { // bakalan di panggil setiap query berubah
     if (query) {
       // Simulasi pengambilan data dari API
       const fetchData = async () => {

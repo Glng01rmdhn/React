@@ -7,7 +7,7 @@ function useInput(initialValue) {
     setValue(e.target.value);
   };
 
-  const reset = () => {
+  const reset = () => { 
     setValue(initialValue);
   };
 
