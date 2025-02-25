@@ -5,7 +5,7 @@ function Counter() {
 
     useEffect(() => {
         console.log('Efek dijalankan');
-    }, []); //dependency array yang kosong // Hanya berjalan saat komponen pertama kali dirender
+    }, []); //dependency array yang kosong. // Hanya berjalan saat komponen pertama kali dirender
 
     return (
         <div>
